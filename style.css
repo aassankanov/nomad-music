@@ -1,0 +1,233 @@
+/* Add any CSS you need to this file. */
+.banner-area {
+  background-image: url('https://images.unsplash.com/photo-1459233313842-cd392ee2c388?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80');
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding: 15px 60px;
+}
+#guitars {
+  background-color: #dddddd;
+}
+#accessories {
+  background-color: gold;
+}
+.card-img-top {
+  max-height: 250px;
+}
+#guitars h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+#accessories h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+#category-select button {
+  margin-left: 20vw;
+}
+#category-select p {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+}
+div.row {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+.img {
+  width: 60px;
+  height: 80px;
+}
+.about-us {
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+  height: 180px;
+}
+#about {
+  height: 50vh;
+  background-color: #4b5d67;
+}
+
+.price-list {
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+  height: 180px;
+}
+#pricing {
+  height: 50vh;
+  background-color: #ec524b;
+}
+.card-title {
+  font-family: 'Lobster', cursive;
+}
+.menu {
+  width: 42%;
+  float: right;
+  list-style: none;
+}
+.menu li {
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #222831;
+  font-size: 18px;
+  float: left;
+}
+.menu li:hover {
+  background: yellow;
+}
+.menu li a {
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive;
+  color: #222831;
+  text-transform: uppercase;
+}
+.menu li:hover a {
+  color: #000;
+}
+
+.logo {
+  text-decoration: none;
+  color: #ec524b;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  padding: 20px 0;
+  width: 20%;
+  float: left;
+}
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: #ec524b;
+  font-size: 20px;
+  text-align: center;
+}
+.banner-text h2 {
+  font-family: baloo;
+  margin: 0;
+  font-size: 55px;
+  color: yellow;
+}
+.banner-text p {
+  margin: 0;
+  font-size: 22px;
+  font-family: poppins;
+}
+.banner-text a {
+  text-decoration: none;
+  border: 2px solid #fff;
+  font-size: 17px;
+  padding: 10px 35px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 5%;
+  font-family: poppins;
+}
+.banner-text a:hover {
+  border-color: yellow;
+  background: yellow;
+  transition: 0.9s;
+  color: #262626;
+}
+.footer {
+  background: #0c2d48;
+  color: #b1d4e0;
+  height: 300px;
+  position: absolute;
+}
+.footer .footer-bottom {
+  background: #050a30;
+  color: #b1d4e0;
+  height: 50px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
+.footer .footer-content {
+  border: 1px solid #0c2d48;
+  height: 300px;
+  display: flex;
+}
+
+.footer .footer-content .footer-section {
+  flex: 1;
+  border: 1px solid #0c2d48;
+}
+
+.footer .footer-content .footer-section h3 {
+  font-family: 'Lobster', cursive;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.footer .footer-content .about p {
+  font-size: 12px;
+  display: block;
+  text-align: left;
+  padding-left: 10px;
+}
+.footer .footer-content .about .contact span {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+.footer .footer-content .links li {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  text-align: center;
+}
+.footer .footer-content .about .social-media a {
+  border: 1px solid gray;
+  width: 45px;
+  height: 41px;
+  padding-top: 5px;
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.1em;
+  border-radius: 5px;
+}
+.footer .footer-content .about .social-media a:hover {
+  border: 1px solid white;
+  color: white;
+  transition: all 0.3s;
+}
+.footer .footer-content .contact-form button {
+  color: white;
+  padding-left: 5px;
+}
+.footer .footer-content .footer-section h4 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  padding-left: 15px;
+}
+.main-form{
+  padding-top: 10px;
+  margin: auto;
+  width: 55vw;
+}
+#subscribe-form{
+  background-color: #bedbbb;
+}

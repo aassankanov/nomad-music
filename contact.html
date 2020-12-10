@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>WEB222 Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> <!-- BOOTSRAP css library-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- The responsive viewport meta tag for a smooth changing of size on different sizes of screen-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet"> <!--Google fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--icons from w3schools reference-->
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <a><img src="logo1.png" class="img-responsive" alt=""/></a> <!-- logotype of shop-->
+         <a class="navbar-brand" href="index.html">Nomad Music</a>
+         <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </a>
+      </nav>
+
+
+
+      <div id="subscribe-form">
+
+<form action="https://formspree.io/f/xnqogdrd" method="POST" class="main-form needs-validation">
+    <div class="row">
+        <div class="col">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-control" required>
+                <div class="invalid-feedback">Please enter a valid name</div>
+                <div class="valid-feedback">Looks Good!</div>
+            </div>
+        </div>    
+    </div>
+    <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" name="Email Address" id="email" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="address">Address</label>
+        <input type="text" name="Address" id="address" class="form-control" required>
+    </div>
+    <div class="row">
+        <div class="col">
+    <div class="form-group">
+        <label for="city">Your City</label>
+        <select name="city" id="city" class="form-control" required>
+            <option value="Toronto">Toronto</option>
+            <option value="Ottawa">Ottawa</option>
+            <option value="Québec">Québec</option>
+            <option value="Montréal">Montréal</option>
+            <option value="Vancouver">Vancouver</option>
+            <option value="Victoria">Victoria</option>
+            <option value="Halifax">Halifax</option>
+            <option value="Calgary">Calgary</option>
+        </select>
+    </div>
+    </div>
+    <div class="col">
+    <div class="form-group">
+        <label for="PostalCode">Postal Code</label>
+        <input type="text" name="PostalCode" id="PostalCode" class="form-control" required>
+    </div>
+    </div>
+    </div>
+    <label for="customRadio">Contact type:</label>
+    <div class="custom-control custom-radio">
+  <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+  <label class="custom-control-label" for="customRadio1">Question</label>
+</div>
+<div class="custom-control custom-radio">
+    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio2">Comment</label>
+  </div>
+  <div class="custom-control custom-radio">
+    <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio3">Order Problem</label>
+  </div>
+  <div class="form-group">
+    <textarea class="form-control" id="MessageArea" placeholder="write your message here" required></textarea>
+  </div>
+ <div class="form-group">
+ <textarea class="form-control" id="orderNumber" placeholder="enter order number" hidden="true"></textarea>
+  <div class="invalid-feedback">
+      Please enter the order number.
+  </div>
+ </div>
+ <div class="form-group">
+    <input type="text" name="name" id="authorname" class="form-control" placeholder="Aidar Assankanov" hidden="true">
+</div>
+  
+  <div class="form-group">
+    <button type="submit" class="btn btn-warning mb-2">Submit</button>
+  </div>
+</form>
+
+</div>
+
+
+    <!--Footer content-->
+<div class="footer">
+  <div class="footer-content">
+    <div class="footer-section about">
+      <h3 class="logo-footer">Guitar Hero</h3>
+      <p>
+        Our company was established in November,2020 by Aidar Assankanov, who is the creator of
+        this web-store. Our main goal is to provide musicians with the best quality musical
+        instruments and accessories. It is our pleasure to present all of our best-quality and
+        unique products to our loyal customers.
+      </p>
+      <div class="contact">
+        <span><i class="fa fa-phone">&nbsp; 647-894-2323</i></span>
+        <span><i class="fa fa-envelope">&nbsp; info@nomadmusic.com</i></span>
+      </div>
+      <div class="social-media">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-section links">
+      <h4>Quick Links</h4>
+      <br />
+      <ul>
+        <a href="#home">
+          <li>Home</li>
+        </a>
+        <a href="#about">
+          <li>Our Guitars</li>
+        </a>
+        <a href="#about">
+          <li>About Us</li>
+        </a>
+        <a href="contact.html">
+          <li>Contact Us</li>
+        </a>
+      </ul>
+    </div>
+
+    <div class="footer-section contact-form">
+      <h3>Subscribe to our chanel</h3>
+      <br />
+      <form
+        action="https://formspree.io/f/xgepnkbj"
+        method="POST"
+        class="subscribe"
+      >
+        <input
+          type="email"
+          name="email"
+          class="text-input contact-input"
+          placeholder="Your Email Address..."
+        />
+        <button type="submit" class="btn btn-big">
+          <i class="fa fa-envelope-o"></i>Subscribe
+        </button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom">&copy; nomad-music.org | Designed by Aidar Assankanov</div>
+</div>
+    <!--
+      Introduction
+      ------------
+
+      You are asked to create an online store in HTML, CSS, and JavaScript.
+      Please implement a store with all of the following requirements.
+
+      You may remove this comment and place all your HTML in this file.
+
+      Requirements:
+
+      1. Use a JavaScript or JSON file to describe your store's items, and each
+      item's details.  For example, the price, title, description, image URL, etc.
+      should all be properties on an Object, and these Objects should all be stored
+      in one or more Arrays, for example:
+
+      [
+        {
+          name: 'Name of product',
+          description: 'Full desc of this item...'
+          price: 100,                        // NOTE: prices are often done in whole cents and then formatted to dollars/cents
+          category: 'category1',             // category of this item
+          imageUrl: 'images/item-1234.jpg',  // relative URL to image of this item
+        },
+        ...
+      ]
+
+      2. Use JavaScript and DOM programming to build the items in your store (see
+      details below on requirements).  Instead of hard-coding everything in HTML,
+      write functions to generate the cards for each item programmatically (similar
+      to how you built the countries table UI in the previous assignment).
+
+      3. Include a header across the top with your store's name, a logo,
+      and use a different background colour, web font, etc. Your header should
+      include info about what the store is, what it sells, etc.  Use some images
+      to try and draw the user in. NOTE: place all your site's images in the
+      `src/images/` directory.
+
+      4. Below the header, a multi-column layout of items you can purchase in the
+      store.  You must have at least 10 items in your store, and at least 2
+      categories of items. For example, if you are selling clothing, you might
+      have categories for Men, Women, and Children, and each category would have
+      its own set of items.  Each item should include:
+      
+        - a picture of the item
+        - the item's name or title
+        - a complete description of the item
+        - a category (i.e., each item must belong to one or more categories)
+        - a price, formatted in Canadian Dollars (i.e., en-CA)
+      
+      Each item should be its own "card" (i.e., some kind of box around each item
+      separating one from the next, with suitable whitespace between).  The HTML
+      for these cards should be generated from your JavaScript or JSON data (see 1.
+      and 2. above).
+
+      5. A category menu or "sidebar" (left, right, or top depending on your design)
+      showing the different categories of items in your store.  If a
+      user clicks on one of the categories, use CSS and JavaScript to hide all
+      other items in the store (i.e., only show items for the chosen category).
+      Make sure you include a way to return to seeing all categories, and make it
+      obvious to the user that they are only seeing a partial list of items when
+      you filter by category (i.e., use CSS and HTML to change things somehow).
+
+      6. Below the store items, a footer with the name of the store, any relevant
+      links you need to give users.  Include links and icons to any social media
+      for your store (Facebook, Twitter, etc). NOTE: you don't have to create such
+      accounts, but you can provide links to imaginary accounts.
+
+      7. Use at least two different Web Fonts for your store.  The titles should
+      be different from any regular text.  Use a free font service like
+      https://fonts.google.com/ or any other that you choose.  You can also
+      experiment with different font sizes and colours to draw attention toward
+      or away from various parts of your design.
+
+      8. Pick a colour theme using a tool like https://colorhunt.co/ with at least
+      3 colours (primary, secondary, accent), and use them throughout your site
+      for backgrounds, borders, fonts. Your store page needs to look attractive
+      and marks will be given for good a good looking site.  No one will buy from
+      a store that looks like its owners aren't professional or don't care about
+      details.  Also make sure that the colour contrast in your site is suitable
+      for everyone to read.
+
+      9. Use modern CSS to help you achieve your layout.  For example, Flexbox
+      and CSS Grid can help you create professional looking layouts.  Here
+      are some guides to get you started:
+
+       - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+       - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+       
+      You are also welcome to use existing CSS libraries to help you with your layout,
+      but you must also include your own styles (i.e., you can't use a library
+      for everything in your design).
+
+      10. Make sure you don't use copyrighted materials from other sites.  If you use
+      icons, fonts, images, etc., make sure you are legally permitted to reuse them,
+      and include references to indicate where you got them. Some resources to consider:
+
+        - https://unsplash.com/ for images
+        - https://fontawesome.com/ for icons
+        - https://gallery.manypixels.co/ or https://undraw.co/illustrations for illustrations (SVG)
+
+      11. Make sure you reduce the download size of images you include in your
+      store.  Your images shouldn't be larger than 1M in size.  Users don't want to
+      download 10s or 100s of megabytes of data, especially on mobile.  You can use an
+      online tool like https://squoosh.app/ to help you reduce images.  You will
+      lose marks if your images aren't optimized for the web.
+
+      12. Make sure you have no JavaScript or other errors in your Dev Tools Console.
+      Run your site, and test all aspects of it with the Console open, and fix
+      any issues you encounter.
+
+      13. Make sure your code is properly indented and commented, and that you've used
+      good naming practices for variables, functions, ids, classes, etc.
+
+      14. Have fun!  Build something you'd be proud to show future employers in
+      interviews.  Take the time to properly design and implement a beautiful and
+      functional storefront.  Maybe it will inspire you to start your own online business?
+    -->
+    <script src="contact-script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <!-- BOOTSTRAP JS PLUGINS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
